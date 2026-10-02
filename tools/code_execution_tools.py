@@ -17,7 +17,7 @@ def register_code_execution_tools(mcp, revit_get, revit_post, revit_image=None):
         """
         Execute IronPython 2.7 code directly in Revit context (Revit 2027).
 
-        IMPORTANT: this is IronPython 2.7, not CPython 3. No f-strings, use
+        Note: this is IronPython 2.7, not CPython 3. No f-strings, use
         "{}".format(x). Integer division truncates. No numpy/pandas/requests.
 
         The code has access to:
