@@ -25,7 +25,7 @@ def register_code_execution_tools(mcp, revit_get, revit_post, revit_image=None):
         - uidoc: The active UIDocument (use for UI operations like switching the active view)
         - DB: Revit API Database namespace
         - revit: pyRevit module
-        - System: .NET System namespace
+        - System (the .NET System namespace)
         - json: json module whose dumps() also accepts Int64, ElementId, XYZ
         - print: Function to output text (returned in response)
 
